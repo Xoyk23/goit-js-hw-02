@@ -5,7 +5,7 @@ function isLoginValid(login, min = 4, max = 16) {
 
 function isLoginUnique(allLogins, login) {
   'use strict';
-  // Write code under this line
+
   const loginUnique = allLogins.includes(login);
   if (loginUnique === true) {
     return false;
